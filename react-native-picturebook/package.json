@@ -1,0 +1,19 @@
+{
+  "name": "react-native-picturebook",
+  "description": "Picturebook is react native component for building UI components and pages in isolation.",
+  "main": "src/index.ts",
+  "version": "0.1.0",
+  "keyword": [
+    "storybook",
+    "picturebook",
+    "react",
+    "react-native"
+  ],
+  "scripts": {
+    "build": "tsc && node ./scripts/prepare.js"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
